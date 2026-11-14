@@ -1,0 +1,9 @@
+category,item,details,source,url
+Original dataset,Divvy historical bike-share trip data,12 monthly ZIP archives,Divvy System Data,https://divvybikes-marketing.lyft.net/system-data
+Data ownership,City of Chicago,Owner of the Divvy system data,Divvy Data License Agreement,https://divvybikes.com/data-license-agreement
+Data operator,"Lyft Bikes and Scooters, LLC",Operates Divvy and makes historical data available,Divvy Data License Agreement,https://divvybikes.com/data-license-agreement
+Reporting period,October 2025 – September 2026,12 consecutive months,Project reporting scope,Not applicable
+License,Divvy Data License Agreement,"Governs access, analysis and permitted use",Divvy,https://divvybikes.com/data-license-agreement
+Processed dataset,cyclistic_master_cleaned.parquet,"6,171,679 reporting-period records",Created in this project,data/processed/cyclistic_master_cleaned.parquet
+Duration dataset,cyclistic_duration_eligible.parquet,"6,146,323 duration-eligible records",Created in this project,data/processed/cyclistic_duration_eligible.parquet
+Analysis tools,"Python, pandas, PyArrow and Matplotlib","Data processing, analysis and visualization",Project environment,Not applicable

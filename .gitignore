@@ -1,0 +1,37 @@
+
+# Original source data — do not publish
+/data/raw/
+
+# Processed datasets and temporary audit files
+/data/processed/
+*.parquet
+*.sqlite
+*.db
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local environment and machine-specific configuration
+.conda/
+.venv/
+venv/
+.env
+.env.*
+
+# Machine-specific Conda export
+conda-explicit-win-64.txt
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor temporary files
+*.swp
+*.tmp
