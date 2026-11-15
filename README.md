@@ -21,6 +21,12 @@ The central business question is:
 
 The project applies data preparation, quality control, exploratory analysis, visualisation and business-oriented interpretation to address this question.
 
+## Full Analysis Report
+
+[View the complete Cyclistic Bike-Share Analysis Report (PDF)](report/Cyclistic_Bike-Share_Analysis_Report.pdf)
+
+The report documents the analytical approach, data preparation, findings, visualisations, limitations and business recommendations.
+
 ## 2. Business Objectives
 
 The analysis aims to:
@@ -98,6 +104,9 @@ cyclistic-bike-share-analysis/
 │   ├── 01_data_inventory_rebuild.ipynb
 │   └── 02_data_rebuild.ipynb
 │
+├── report/
+│   └── Cyclistic_Bike-Share_Analysis_Report.pdf
+│
 ├── visualizations/
 │   ├── 01_rider_composition.png
 │   ├── 02_ride_duration_comparison.png
@@ -171,14 +180,29 @@ The notebooks document the data preparation, quality-control and analytical work
 
 ## 9. Visualisations
 
-The repository includes six visualisations covering:
+### 9.1 Rider Composition
 
-- Rider composition.
-- Ride-duration comparison.
-- Weekly activity patterns.
-- Monthly rider seasonality.
-- Bike-type distribution.
-- Duration by bike type.
+![Rider Composition](visualizations/01_rider_composition.png)
+
+### 9.2 Ride Duration by Rider Category
+
+![Ride Duration Comparison](visualizations/02_ride_duration_comparison.png)
+
+### 9.3 Weekly Activity Patterns
+
+![Weekly Activity Patterns](visualizations/03_weekly_activity_patterns.png)
+
+### 9.4 Monthly Rider Seasonality
+
+![Monthly Rider Seasonality](visualizations/04_monthly_rider_seasonality.png)
+
+### 9.5 Bike-Type Distribution
+
+![Bike-Type Distribution](visualizations/05_bike_type_distribution.png)
+
+### 9.6 Ride Duration by Bike Type
+
+![Duration by Bike Type](visualizations/06_duration_by_bike_type.png)
 
 Each visualisation supports the corresponding analytical findings documented in the project.
 
@@ -194,14 +218,30 @@ Important analytical limitations include:
 - Observational patterns do not establish causation.
 - Findings from Divvy data should not automatically be generalised to Cyclistic or other bike-share systems.
 
-## 11. Data Sources and References
+## 11. Data Sources, Licensing and References
+
+### 11.1 Data Sources
 
 1. Divvy System Data: https://divvybikes-marketing.lyft.net/system-data
 2. Divvy Data License Agreement: https://divvybikes.com/data-license-agreement
 3. City of Chicago Divvy Trips Dataset: https://data.cityofchicago.org/Transportation/Divvy-Trips/fg6s-gzvg/about_data
 4. Google Data Analytics Professional Certificate: https://www.coursera.org/professional-certificates/google-data-analytics
 
-Users should review the applicable source-data licence before downloading, reusing or redistributing the data.
+### 11.2 Data Licensing and Usage
+
+The historical Divvy trip data used in this project is owned by the City of Chicago and made available under the Divvy Data License Agreement.
+
+The agreement permits the use, reproduction, analysis and modification of the data, subject to its terms and restrictions. It prohibits hosting or distributing the data as a standalone dataset, while permitting its inclusion as source material in non-commercial analyses, reports and studies.
+
+Original source archives and processed datasets are therefore excluded from this repository. Users intending to obtain or reuse the data should consult the official data portal and review the applicable licence.
+
+### 11.3 Project Materials
+
+The notebooks, analytical documentation, report and visualisations in this repository represent original educational work developed for this case study.
+
+No separate open-source licence is currently applied to these original project materials. Their reuse and redistribution should not be assumed to be unrestricted.
+
+The use of Divvy data does not transfer ownership of the underlying source data or its associated rights to the project author.
 
 ## 12. Project Disclaimer
 
